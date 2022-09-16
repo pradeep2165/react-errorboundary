@@ -7,7 +7,7 @@ class ErrorBoundary extends Component {
       hasError: false,
     };
   }
-  static getDerivedStateFormError(error) {
+  static getDerivedStateFromError(error) {
     return {
       hasError: true,
     };
@@ -17,7 +17,6 @@ class ErrorBoundary extends Component {
       return <h1>Something went wrong</h1>;
     }
     return this.props.children;
-    return;
   }
 }
 
