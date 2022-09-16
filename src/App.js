@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <Hero heroName={"Batman"} />
       <Hero heroName={"superman"} />
+      <Hero heroName={"Joker"} />
     </div>
   );
 }
